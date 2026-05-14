@@ -15,6 +15,7 @@ A comprehensive learning repository for **JavaScript fundamentals** and **Playwr
   - [Chapter 02: JavaScript Concepts](#chapter-02-javascript-concepts)
   - [Chapter 03: Identifiers & Literals](#chapter-03-identifiers--literals)
   - [Chapter 04: JavaScript Concepts - Variables, Functions & Scope](#chapter-04-javascript-concepts---variables-functions--scope)
+  - [Chapter 05: Literals](#chapter-05-literals)
 - [VS Code Tips](#vs-code-tips)
 - [Running the Code](#running-the-code)
 - [Contributing](#contributing)
@@ -66,7 +67,16 @@ LearnPlaywrightBasics2X/
 │   ├── 14_var_functionscope.js
 │   ├── 15_let_scope.js
 │   ├── 16_Hoisting.js
-│   └── 17_hoisting_fn.js
+│   ├── 17_hoisting_fn.js
+│   ├── 18_let_hoisting.js
+│   ├── 19_let_hoisting_block.js
+│   ├── 20_let_const.js
+│   └── 21_Jr_QA.js
+│
+├── Chapter_05_Literal/                         # Literals in JavaScript
+│   ├── 22_literal.js
+│   ├── 23_null_undefined.js
+│   └── 26_Literal_Number_all.js
 │
 ├── Tasks_LiveClass_Code/                       # Live Class Tasks & Assignments
 │   ├── 11May_Task01_diff_let_var_const.md
@@ -233,6 +243,7 @@ Deep dive into JavaScript variables, functions, and scoping mechanisms:
 - Function declarations, expressions, and arrow functions
 - Global scope, function scope, and block scope
 - Hoisting behavior for variables and functions
+- Temporal Dead Zone (TDZ) for `let` and `const`
 - Practical examples and comparisons
 
 **Key topics:**
@@ -245,6 +256,28 @@ Deep dive into JavaScript variables, functions, and scoping mechanisms:
 - `15_let_scope.js` - Block scope with `let`
 - `16_Hoisting.js` - Variable and function hoisting
 - `17_hoisting_fn.js` - Function hoisting behavior
+- `18_let_hoisting.js` - `let` hoisting and TDZ
+- `19_let_hoisting_block.js` - Block scope hoisting with `let`
+- `20_let_const.js` - `let` vs `const` behavior
+- `21_Jr_QA.js` - Junior QA interview-style questions
+
+---
+
+### Chapter 05: Literals
+
+**Files:** `Chapter_05_Literal/`
+
+Covers all types of literals in JavaScript with practical examples:
+- Number literals (integer, float, binary, octal, hex, BigInt)
+- Special numeric values (`Infinity`, `-Infinity`, `NaN`)
+- `null` vs `undefined` — differences, use-cases, and `typeof` behavior
+- Scientific notation and numeric separators
+- Number parsing and base conversions
+
+**Key topics:**
+- `22_literal.js` - Introduction to literals
+- `23_null_undefined.js` - `null` vs `undefined` explained with examples
+- `26_Literal_Number_all.js` - Complete guide to all number types in JavaScript
 
 ---
 
@@ -308,6 +341,17 @@ node Chapter_04_JavaScript_Concepts/14_var_functionscope.js
 node Chapter_04_JavaScript_Concepts/15_let_scope.js
 node Chapter_04_JavaScript_Concepts/16_Hoisting.js
 node Chapter_04_JavaScript_Concepts/17_hoisting_fn.js
+node Chapter_04_JavaScript_Concepts/18_let_hoisting.js
+node Chapter_04_JavaScript_Concepts/19_let_hoisting_block.js
+node Chapter_04_JavaScript_Concepts/20_let_const.js
+node Chapter_04_JavaScript_Concepts/21_Jr_QA.js
+```
+
+### Run Chapter 05 Files
+```bash
+node Chapter_05_Literal/22_literal.js
+node Chapter_05_Literal/23_null_undefined.js
+node Chapter_05_Literal/26_Literal_Number_all.js
 ```
 
 ---
@@ -320,8 +364,8 @@ node Chapter_04_JavaScript_Concepts/17_hoisting_fn.js
 | **Concepts** | Scope, Hoisting, Type Coercion, Comparisons |
 | **Identifiers** | Rules, Conventions, Reserved Words |
 | **Keywords** | 50+ JavaScript keywords with examples |
-| **Literals** | String, Number, Boolean, Array, Object, Regex |
-| **Variables & Functions** | var/let/const, Function scope, Block scope, Hoisting |
+| **Literals** | String, Number, Boolean, Array, Object, Regex, null, undefined, BigInt |
+| **Variables & Functions** | var/let/const, Function scope, Block scope, Hoisting, TDZ |
 | **VS Code** | Shortcuts, Debugging, IntelliSense, Snippets |
 | **Best Practices** | Naming conventions, Code formatting |
 
