@@ -17,7 +17,8 @@ A comprehensive learning repository for **JavaScript fundamentals** and **Playwr
   - [Chapter 04: JavaScript Concepts - Variables, Functions & Scope](#chapter-04-javascript-concepts---variables-functions--scope)
   - [Chapter 05: Literals](#chapter-05-literals)
   - [Chapter 06: Operators](#chapter-06-operators)
-- [VS Code Tips](#vs-code-tips)
+  - [Test 2: JavaScript Coding Questions](#test-2-javascript-coding-questions)
+  - [VS Code Tips](#vs-code-tips)
 - [Running the Code](#running-the-code)
 - [Contributing](#contributing)
 
@@ -117,6 +118,13 @@ LearnPlaywrightBasics2X/
 │
 ├── .vscode/
 │   └── extensions.json                         # Recommended VS Code extensions
+│
+├── Test2_Java_Script_Coding_Questions.js/      # JavaScript Coding Assessment
+│   ├── Q1.js                                   # API Status Code Switch Case
+│   ├── Q2.js                                   # Test Report Generator
+│   ├── Q3.js                                   # API Call Retry Simulation
+│   ├── Q5.js                                   # Dynamic Test Data Generator
+│   └── Q6.js                                   # Bug Severity Classifier
 │
 ├── hello.js                                    # Quick start example
 └── README.md                                   # This file
@@ -357,6 +365,41 @@ Comprehensive coverage of JavaScript operators with practical examples:
 - `46_IQ_INCREMENT_D.js` - Interview questions on increment/decrement
 - `47_Advance_ID_.js` - Advanced increment/decrement expressions
 
+### Test 2: JavaScript Coding Questions
+
+**Files:** `Test2_Java_Script_Coding_Questions.js/`
+
+A practical JavaScript coding assessment focused on real-world automation testing scenarios:
+
+- **`Q1.js`** — API HTTP Status Code Switch Case
+  - Simulates HTTP response status code handling using `switch(true)`
+  - Covers codes: 200, 201, 301, 400, 401, 403, 404, 500
+  - Demonstrates API testing validation logic
+
+- **`Q2.js`** — Test Report Generator
+  - Accepts an array of test results (`pass`, `fail`, `skip`)
+  - Calculates total tests, pass count, fail count, skip count, and pass rate percentage
+  - Determines release verdict: `Ready for release` / `Review` / `Block release`
+  - Demonstrates loop iteration, conditionals, and formatted console output
+
+- **`Q3.js`** — API Call Retry Simulation
+  - Simulates flaky API calls using `do...while` loop with retry logic
+  - Configurable max attempts (5) with 40% random success probability
+  - Demonstrates `Math.random()`, retry patterns, and loop control
+
+- **`Q5.js`** — Dynamic Test Data Generator
+  - Generates structured mock user data for testing
+  - Cycles through predefined roles dynamically using modulo operator
+  - Implements edge-case rule: every 3rd user marked `INACTIVE`
+  - Demonstrates `var`/`let`/`const` scoping, `padStart()`, `padEnd()`, and formatted table output
+
+- **`Q6.js`** — Bug Severity Classifier
+  - Nested `if-else` logic to classify bug priority based on frequency and impact
+  - Frequency levels: `always`, `often`, `rarely`
+  - Impact levels: `blocker`, `major`, `minor`
+  - Outputs severity (`P0`–`P4`) with actionable messages
+  - Demonstrates nested conditionals and real-world defect triage logic
+
 ### Tasks - Live Class Code
 
 **Files:** `Tasks_LiveClass_Code/`
@@ -474,6 +517,15 @@ node Chapter_06_Operator/46_IQ_INCREMENT_D.js
 node Chapter_06_Operator/47_Advance_ID_.js
 ```
 
+### Run Test 2 Files
+```bash
+node Test2_Java_Script_Coding_Questions.js/Q1.js
+node Test2_Java_Script_Coding_Questions.js/Q2.js
+node Test2_Java_Script_Coding_Questions.js/Q3.js
+node Test2_Java_Script_Coding_Questions.js/Q5.js
+node Test2_Java_Script_Coding_Questions.js/Q6.js
+```
+
 ### Run Tasks Files
 ```bash
 node Tasks_LiveClass_Code/11May_Task05.js
@@ -497,6 +549,7 @@ node Tasks_LiveClass_Code/18MAy_Task03_Incre_Decre.js
 | **Hoisting & TDZ** | var/let/const hoisting, Temporal Dead Zone, Function/Class hoisting |
 | **Variables & Functions** | var/let/const, Function scope, Block scope, Hoisting, TDZ |
 | **Operators** | Arithmetic, Comparison, Logical, Ternary, Type, String, Nullish Coalescing |
+| **Coding Assessment** | API Status Codes, Test Reporting, Retry Logic, Test Data Generation, Bug Severity Classification |
 | **VS Code** | Shortcuts, Debugging, IntelliSense, Snippets |
 | **Best Practices** | Naming conventions, Code formatting |
 
@@ -528,4 +581,4 @@ Created for learning JavaScript and Playwright automation testing basics.
 
 ---
 
-*Last updated: May 19, 2026*
+*Last updated: May 23, 2026*
