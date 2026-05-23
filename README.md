@@ -114,7 +114,15 @@ LearnPlaywrightBasics2X/
 │   ├── 13May_Task_hoisting_tdz_research.js
 │   ├── 18May_Task01_MaxNum_Two_Ternary.js
 │   ├── 18May_Task02_MaxNumber_Three_Ternary.js
-│   └── 18MAy_Task03_Incre_Decre.js
+│   ├── 18MAy_Task03_Incre_Decre.js
+│   ├── 20May_Task01_Even_Odd.js
+│   ├── 20May_Task02_Studeny_Grade_Calc.js
+│   ├── 20May_Task03_LeapYear_Caluculation.js
+│   ├── 20May_Task04_API_StatusCode.js
+│   ├── 20May_Task05_Expected_Actual_Comparison.js
+│   ├── 20May_Task06_Bug_Severity.js
+│   ├── 20May_Task07_Build_Health_Checker.js
+│   └── 20May_Task08_Login_Locked_After_Failed.js
 │
 ├── .vscode/
 │   └── extensions.json                         # Recommended VS Code extensions
@@ -405,15 +413,31 @@ A practical JavaScript coding assessment focused on real-world automation testin
 **Files:** `Tasks_LiveClass_Code/`
 
 Hands-on tasks and assignments from live classes:
+
+**May 11 Tasks:**
 - `11May_Task01_diff_let_var_const.md` - Differences between `let`, `var`, and `const`
 - `11May_Task02_hoisting.md` - Hoisting concepts
 - `11May_Task03.md` - Practice tasks
 - `11May_Task04.md` - Practice tasks
 - `11May_Task05.js` - Coding exercise
+
+**May 13 Tasks:**
 - `13May_Task_hoisting_tdz_research.js` - Hoisting and TDZ research
+
+**May 18 Tasks:**
 - `18May_Task01_MaxNum_Two_Ternary.js` - Find max of two numbers using ternary operator
 - `18May_Task02_MaxNumber_Three_Ternary.js` - Find max of three numbers using ternary operator
 - `18MAy_Task03_Incre_Decre.js` - Complex increment/decrement expression evaluation
+
+**May 20 Tasks:**
+- `20May_Task01_Even_Odd.js` - Check if a number is even or odd using modulus operator
+- `20May_Task02_Studeny_Grade_Calc.js` - Student grade calculator based on marks (A/B/C/D/Fail)
+- `20May_Task03_LeapYear_Caluculation.js` - Leap year calculation using conditional logic
+- `20May_Task04_API_StatusCode.js` - API HTTP status code classification (2xx, 3xx, 4xx, 5xx)
+- `20May_Task05_Expected_Actual_Comparison.js` - Test assertion simulation comparing expected vs actual results
+- `20May_Task06_Bug_Severity.js` - Bug severity classifier based on impact score (Critical/High/Medium/Low)
+- `20May_Task07_Build_Health_Checker.js` - Build health checker using switch cases (Green/Stable/Unstable/Broken)
+- `20May_Task08_Login_Locked_After_Failed.js` - Login attempt tracker with account lockout logic
 
 ---
 
@@ -528,11 +552,26 @@ node Test2_Java_Script_Coding_Questions.js/Q6.js
 
 ### Run Tasks Files
 ```bash
+# 11 May Tasks
 node Tasks_LiveClass_Code/11May_Task05.js
+
+# 13 May Tasks
 node Tasks_LiveClass_Code/13May_Task_hoisting_tdz_research.js
+
+# 18 May Tasks
 node Tasks_LiveClass_Code/18May_Task01_MaxNum_Two_Ternary.js
 node Tasks_LiveClass_Code/18May_Task02_MaxNumber_Three_Ternary.js
 node Tasks_LiveClass_Code/18MAy_Task03_Incre_Decre.js
+
+# 20 May Tasks
+node Tasks_LiveClass_Code/20May_Task01_Even_Odd.js
+node Tasks_LiveClass_Code/20May_Task02_Studeny_Grade_Calc.js
+node Tasks_LiveClass_Code/20May_Task03_LeapYear_Caluculation.js
+node Tasks_LiveClass_Code/20May_Task04_API_StatusCode.js
+node Tasks_LiveClass_Code/20May_Task05_Expected_Actual_Comparison.js
+node Tasks_LiveClass_Code/20May_Task06_Bug_Severity.js
+node Tasks_LiveClass_Code/20May_Task07_Build_Health_Checker.js
+node Tasks_LiveClass_Code/20May_Task08_Login_Locked_After_Failed.js
 ```
 
 ---
@@ -581,4 +620,4 @@ Created for learning JavaScript and Playwright automation testing basics.
 
 ---
 
-*Last updated: May 23, 2026*
+*Last updated: May 24, 2026*
