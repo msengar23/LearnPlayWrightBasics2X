@@ -11,7 +11,8 @@
  * and expression-based QA utilities.
  */
 
-function classifyJsOperatorsScore(score) {
+function classifyJsOperatorsScore(score) 
+{
     // ADD YOUR CODE HERE
     // Null-safe check: ensure score is a valid number
     if (score === null || score === undefined || typeof score !== 'number') {
@@ -31,4 +32,4 @@ function classifyJsOperatorsScore(score) {
 }
 
 // Export for reuse in test suites
-module.exports = { classifyJsOperatorsScore };
+ classifyJsOperatorsScore(95);

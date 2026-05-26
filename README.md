@@ -4,7 +4,7 @@ A comprehensive learning repository for **JavaScript fundamentals** and **Playwr
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [About This Repository](#about-this-repository)
 - [Repository Structure](#repository-structure)
@@ -17,6 +17,12 @@ A comprehensive learning repository for **JavaScript fundamentals** and **Playwr
   - [Chapter 04: JavaScript Concepts - Variables, Functions & Scope](#chapter-04-javascript-concepts---variables-functions--scope)
   - [Chapter 05: Literals](#chapter-05-literals)
   - [Chapter 06: Operators](#chapter-06-operators)
+  - [Chapter 07: If-Else Statements](#chapter-07-if-else-statements)
+  - [Chapter 08: Switch Statements](#chapter-08-switch-statements)
+  - [Chapter 09: User Input](#chapter-09-user-input)
+  - [Chapter 10: Loops](#chapter-10-loops)
+  - [Chapter 11: Arrays](#chapter-11-arrays)
+  - [JavaScript Basics Part 1: Literals & Identifiers](#javascript-basics-part-1-literals--identifiers)
   - [Test 2: JavaScript Coding Questions](#test-2-javascript-coding-questions)
   - [VS Code Tips](#vs-code-tips)
 - [Running the Code](#running-the-code)
@@ -105,6 +111,78 @@ LearnPlaywrightBasics2X/
 │   ├── 46_IQ_INCREMENT_D.js
 │   └── 47_Advance_ID_.js
 │
+├── Chapter_07_if_else/                         # If-Else Statements
+│   ├── 48_if_else.js
+│   ├── 49_if_elseif_else.js
+│   ├── 50_Real_is_else.js
+│   ├── 51_API_is_else.js
+│   ├── 52_IQ_if_else.js
+│   ├── 53_if_else_real.js
+│   ├── 54_IQ.js
+│   ├── 55_IE.js
+│   ├── 56_IQ_even_odd.js
+│   ├── 57_Grade_Calc.js
+│   └── 58_leap_year.js
+│
+├── Chapter_08_Switch_Statement/                # Switch Statements
+│   ├── 59_switch.js
+│   ├── 60_No_Break.js
+│   ├── 61_Default.js
+│   ├── 62_Real_Time_Example.js
+│   ├── 63_Switch_Group.js
+│   ├── 64_IQ.js
+│   ├── 65_IQ2.js
+│   ├── 66_IQ3.js
+│   └── 67_IQ4.js
+│
+├── Chapter_09_User_Input/                      # User Input Handling
+│   ├── 68_userInput.js
+│   ├── 69_Node_Readline.js
+│   └── 70_Prompt_Sync.js
+│
+├── Chapter_10_Loop/                            # Loops in JavaScript
+│   ├── 71_For_Loop.js
+│   ├── 72_for_Loop.js
+│   ├── 73_For_Loop2.js
+│   ├── 74_IQ.js
+│   ├── 75_for_of_in_each.js
+│   ├── 76_while.js
+│   ├── 77_do_while.js
+│   ├── 78_dowhile.js
+│   ├── 79_IQ.js
+│   ├── 80_IQ.js
+│   ├── 81_IQ.js
+│   └── 82_IQ.js
+│
+├── Chapter_11_Array/                           # Arrays in JavaScript
+│   ├── 83_Arrays.js
+│   ├── 84_Arrays.js
+│   ├── 85_Access_Arrays.js
+│   ├── 86_Array_adding_remove.js
+│   ├── 87_Array_Adding_remove2.js
+│   ├── 88_Real_Example.js
+│   ├── 89_Searching.js
+│   ├── 90_Iterate.js
+│   └── 91_Transform_Array.js
+│
+├── JavaScript_Basics_Part1_Literals_identifier/  # JS Basics Part 1
+│   ├── Q1.js
+│   ├── Q2.js
+│   ├── Q3.js
+│   ├── Q4.js
+│   ├── Q5.js
+│   ├── Q6.js
+│   ├── Q7.js
+│   ├── Q8.js
+│   ├── Q9.js
+│   ├── Q10.js
+│   ├── Q11.js
+│   ├── Q12.js
+│   ├── Q13.js
+│   ├── Q14.js
+│   ├── Q15.js
+│   └── README.md
+│
 ├── Tasks_LiveClass_Code/                       # Live Class Tasks & Assignments
 │   ├── 11May_Task01_diff_let_var_const.md
 │   ├── 11May_Task02_hoisting.md
@@ -122,7 +200,9 @@ LearnPlaywrightBasics2X/
 │   ├── 20May_Task05_Expected_Actual_Comparison.js
 │   ├── 20May_Task06_Bug_Severity.js
 │   ├── 20May_Task07_Build_Health_Checker.js
-│   └── 20May_Task08_Login_Locked_After_Failed.js
+│   ├── 20May_Task08_Login_Locked_After_Failed.js
+│   ├── 22May_Task01_Triangle_Classifier.js
+│   └── 22May_Task02_fix_Buzz.js
 │
 ├── .vscode/
 │   └── extensions.json                         # Recommended VS Code extensions
@@ -134,6 +214,7 @@ LearnPlaywrightBasics2X/
 │   ├── Q5.js                                   # Dynamic Test Data Generator
 │   └── Q6.js                                   # Bug Severity Classifier
 │
+├── classifyJsOperatorsScore.js                 # Score classifier utility
 ├── hello.js                                    # Quick start example
 └── README.md                                   # This file
 ```
@@ -373,6 +454,149 @@ Comprehensive coverage of JavaScript operators with practical examples:
 - `46_IQ_INCREMENT_D.js` - Interview questions on increment/decrement
 - `47_Advance_ID_.js` - Advanced increment/decrement expressions
 
+---
+
+### Chapter 07: If-Else Statements
+
+**Files:** `Chapter_07_if_else/`
+
+Complete coverage of conditional logic using `if`, `else if`, and `else` statements with real-world QA and API testing scenarios:
+- Basic `if...else` syntax and flow
+- `if...else if...else` ladders
+- Nested conditions
+- Real-world API status checks
+- Even/odd number checks
+- Grade calculator logic
+- Leap year calculation
+- Interview questions on conditionals
+
+**Key topics:**
+- `48_if_else.js` - Basic `if...else` syntax
+- `49_if_elseif_else.js` - Multiple condition branches
+- `50_Real_is_else.js` - Real-world conditional examples
+- `51_API_is_else.js` - API response handling with conditionals
+- `52_IQ_if_else.js` - Interview questions on `if...else`
+- `53_if_else_real.js` - Practical conditional patterns
+- `54_IQ.js` - More interview questions
+- `55_IE.js` - Additional conditional exercises
+- `56_IQ_even_odd.js` - Even/odd check using conditionals
+- `57_Grade_Calc.js` - Student grade calculator
+- `58_leap_year.js` - Leap year logic
+
+---
+
+### Chapter 08: Switch Statements
+
+**Files:** `Chapter_08_Switch_Statement/`
+
+Deep dive into `switch...case` control flow, fall-through behavior, grouping cases, and practical automation testing use-cases:
+- Basic `switch` syntax and `case` matching
+- `break` statement importance and fall-through behavior
+- `default` case handling
+- Grouping multiple cases
+- Real-world examples: day of week, HTTP status codes
+- Interview questions on `switch`
+
+**Key topics:**
+- `59_switch.js` - Basic `switch` statement
+- `60_No_Break.js` - Fall-through behavior without `break`
+- `61_Default.js` - Using the `default` case
+- `62_Real_Time_Example.js` - Real-world `switch` examples
+- `63_Switch_Group.js` - Grouping multiple cases
+- `64_IQ.js` - Interview questions on `switch`
+- `65_IQ2.js` - More `switch` interview questions
+- `66_IQ3.js` - Advanced `switch` scenarios
+- `67_IQ4.js` - Complex `switch` patterns
+
+---
+
+### Chapter 09: User Input
+
+**Files:** `Chapter_09_User_Input/`
+
+Learn how to accept user input in JavaScript using browser prompts, Node.js `readline`, and synchronous prompt modules:
+- Browser `prompt()` for user input
+- Node.js `readline` module for CLI input
+- `prompt-sync` for synchronous input in Node.js
+- Converting string input to numbers
+- Building interactive CLI tools
+
+**Key topics:**
+- `68_userInput.js` - Browser-based `prompt()` input
+- `69_Node_Readline.js` - Node.js `readline` module usage
+- `70_Prompt_Sync.js` - Synchronous prompt with `prompt-sync`
+
+---
+
+### Chapter 10: Loops
+
+**Files:** `Chapter_10_Loop/`
+
+Master all JavaScript loop constructs for iterating over data, running repetitive tasks, and solving automation problems:
+- `for` loop syntax and use-cases
+- `for...of` and `for...in` loops
+- `while` loop
+- `do...while` loop
+- Loop control with `break` and `continue`
+- Nested loops
+- Interview questions on loops
+
+**Key topics:**
+- `71_For_Loop.js` - Introduction to `for` loops
+- `72_for_Loop.js` - `for` loop patterns
+- `73_For_Loop2.js` - Advanced `for` loop examples
+- `74_IQ.js` - Loop interview questions
+- `75_for_of_in_each.js` - `for...of` vs `for...in`
+- `76_while.js` - `while` loop basics
+- `77_do_while.js` - `do...while` loop
+- `78_dowhile.js` - More `do...while` examples
+- `79_IQ.js` - Loop IQ questions
+- `80_IQ.js` - More loop challenges
+- `81_IQ.js` - Advanced loop problems
+- `82_IQ.js` - Complex loop scenarios
+
+---
+
+### Chapter 11: Arrays
+
+**Files:** `Chapter_11_Array/`
+
+Comprehensive guide to JavaScript arrays — creation, access, modification, searching, iteration, and transformation:
+- Array creation and initialization
+- Accessing elements by index
+- Adding and removing elements (`push`, `pop`, `shift`, `unshift`, `splice`)
+- Searching methods (`indexOf`, `includes`, `find`)
+- Iteration techniques (`forEach`, `for...of`)
+- Transformation methods (`map`, `filter`, `reduce`)
+- Real-world QA test data arrays
+
+**Key topics:**
+- `83_Arrays.js` - Array basics and initialization
+- `84_Arrays.js` - Array properties and methods
+- `85_Access_Arrays.js` - Accessing array elements
+- `86_Array_adding_remove.js` - Adding and removing elements
+- `87_Array_Adding_remove2.js` - More array modification techniques
+- `88_Real_Example.js` - Real-world array examples
+- `89_Searching.js` - Searching in arrays
+- `90_Iterate.js` - Array iteration methods
+- `91_Transform_Array.js` - Array transformation (`map`, `filter`, `reduce`)
+
+---
+
+### JavaScript Basics Part 1: Literals & Identifiers
+
+**Files:** `JavaScript_Basics_Part1_Literals_identifier/`
+
+A dedicated practice folder with 15 question-based exercises (`Q1.js` to `Q15.js`) focused on JavaScript literals and identifiers. Great for reinforcing naming conventions, valid/invalid identifiers, and literal types.
+
+**Topics covered:**
+- JavaScript Literals (string, number, boolean, object, array, etc.)
+- Identifiers and Naming Conventions
+- Valid vs Invalid Identifier Names
+- Best Practices for Variable Naming
+
+---
+
 ### Test 2: JavaScript Coding Questions
 
 **Files:** `Test2_Java_Script_Coding_Questions.js/`
@@ -438,6 +662,10 @@ Hands-on tasks and assignments from live classes:
 - `20May_Task06_Bug_Severity.js` - Bug severity classifier based on impact score (Critical/High/Medium/Low)
 - `20May_Task07_Build_Health_Checker.js` - Build health checker using switch cases (Green/Stable/Unstable/Broken)
 - `20May_Task08_Login_Locked_After_Failed.js` - Login attempt tracker with account lockout logic
+
+**May 22 Tasks:**
+- `22May_Task01_Triangle_Classifier.js` - Classify a triangle based on side lengths (Equilateral/Isosceles/Scalene)
+- `22May_Task02_fix_Buzz.js` - Fix the FizzBuzz logic exercise
 
 ---
 
@@ -541,6 +769,89 @@ node Chapter_06_Operator/46_IQ_INCREMENT_D.js
 node Chapter_06_Operator/47_Advance_ID_.js
 ```
 
+### Run Chapter 07 Files
+```bash
+node Chapter_07_if_else/48_if_else.js
+node Chapter_07_if_else/49_if_elseif_else.js
+node Chapter_07_if_else/50_Real_is_else.js
+node Chapter_07_if_else/51_API_is_else.js
+node Chapter_07_if_else/52_IQ_if_else.js
+node Chapter_07_if_else/53_if_else_real.js
+node Chapter_07_if_else/54_IQ.js
+node Chapter_07_if_else/55_IE.js
+node Chapter_07_if_else/56_IQ_even_odd.js
+node Chapter_07_if_else/57_Grade_Calc.js
+node Chapter_07_if_else/58_leap_year.js
+```
+
+### Run Chapter 08 Files
+```bash
+node Chapter_08_Switch_Statement/59_switch.js
+node Chapter_08_Switch_Statement/60_No_Break.js
+node Chapter_08_Switch_Statement/61_Default.js
+node Chapter_08_Switch_Statement/62_Real_Time_Example.js
+node Chapter_08_Switch_Statement/63_Switch_Group.js
+node Chapter_08_Switch_Statement/64_IQ.js
+node Chapter_08_Switch_Statement/65_IQ2.js
+node Chapter_08_Switch_Statement/66_IQ3.js
+node Chapter_08_Switch_Statement/67_IQ4.js
+```
+
+### Run Chapter 09 Files
+```bash
+node Chapter_09_User_Input/68_userInput.js
+node Chapter_09_User_Input/69_Node_Readline.js
+node Chapter_09_User_Input/70_Prompt_Sync.js
+```
+
+### Run Chapter 10 Files
+```bash
+node Chapter_10_Loop/71_For_Loop.js
+node Chapter_10_Loop/72_for_Loop.js
+node Chapter_10_Loop/73_For_Loop2.js
+node Chapter_10_Loop/74_IQ.js
+node Chapter_10_Loop/75_for_of_in_each.js
+node Chapter_10_Loop/76_while.js
+node Chapter_10_Loop/77_do_while.js
+node Chapter_10_Loop/78_dowhile.js
+node Chapter_10_Loop/79_IQ.js
+node Chapter_10_Loop/80_IQ.js
+node Chapter_10_Loop/81_IQ.js
+node Chapter_10_Loop/82_IQ.js
+```
+
+### Run Chapter 11 Files
+```bash
+node Chapter_11_Array/83_Arrays.js
+node Chapter_11_Array/84_Arrays.js
+node Chapter_11_Array/85_Access_Arrays.js
+node Chapter_11_Array/86_Array_adding_remove.js
+node Chapter_11_Array/87_Array_Adding_remove2.js
+node Chapter_11_Array/88_Real_Example.js
+node Chapter_11_Array/89_Searching.js
+node Chapter_11_Array/90_Iterate.js
+node Chapter_11_Array/91_Transform_Array.js
+```
+
+### Run JavaScript Basics Part 1 Files
+```bash
+node JavaScript_Basics_Part1_Literals_identifier/Q1.js
+node JavaScript_Basics_Part1_Literals_identifier/Q2.js
+node JavaScript_Basics_Part1_Literals_identifier/Q3.js
+node JavaScript_Basics_Part1_Literals_identifier/Q4.js
+node JavaScript_Basics_Part1_Literals_identifier/Q5.js
+node JavaScript_Basics_Part1_Literals_identifier/Q6.js
+node JavaScript_Basics_Part1_Literals_identifier/Q7.js
+node JavaScript_Basics_Part1_Literals_identifier/Q8.js
+node JavaScript_Basics_Part1_Literals_identifier/Q9.js
+node JavaScript_Basics_Part1_Literals_identifier/Q10.js
+node JavaScript_Basics_Part1_Literals_identifier/Q11.js
+node JavaScript_Basics_Part1_Literals_identifier/Q12.js
+node JavaScript_Basics_Part1_Literals_identifier/Q13.js
+node JavaScript_Basics_Part1_Literals_identifier/Q14.js
+node JavaScript_Basics_Part1_Literals_identifier/Q15.js
+```
+
 ### Run Test 2 Files
 ```bash
 node Test2_Java_Script_Coding_Questions.js/Q1.js
@@ -572,6 +883,10 @@ node Tasks_LiveClass_Code/20May_Task05_Expected_Actual_Comparison.js
 node Tasks_LiveClass_Code/20May_Task06_Bug_Severity.js
 node Tasks_LiveClass_Code/20May_Task07_Build_Health_Checker.js
 node Tasks_LiveClass_Code/20May_Task08_Login_Locked_After_Failed.js
+
+# 22 May Tasks
+node Tasks_LiveClass_Code/22May_Task01_Triangle_Classifier.js
+node Tasks_LiveClass_Code/22May_Task02_fix_Buzz.js
 ```
 
 ---
@@ -588,6 +903,10 @@ node Tasks_LiveClass_Code/20May_Task08_Login_Locked_After_Failed.js
 | **Hoisting & TDZ** | var/let/const hoisting, Temporal Dead Zone, Function/Class hoisting |
 | **Variables & Functions** | var/let/const, Function scope, Block scope, Hoisting, TDZ |
 | **Operators** | Arithmetic, Comparison, Logical, Ternary, Type, String, Nullish Coalescing |
+| **Conditionals** | if/else, else if, nested conditions, switch/case, fall-through |
+| **User Input** | prompt, readline, prompt-sync |
+| **Loops** | for, for...of, for...in, while, do...while, break, continue |
+| **Arrays** | Creation, access, push/pop, splice, indexOf, find, map, filter, reduce |
 | **Coding Assessment** | API Status Codes, Test Reporting, Retry Logic, Test Data Generation, Bug Severity Classification |
 | **VS Code** | Shortcuts, Debugging, IntelliSense, Snippets |
 | **Best Practices** | Naming conventions, Code formatting |
@@ -616,8 +935,8 @@ This project is for educational purposes.
 
 Created for learning JavaScript and Playwright automation testing basics.
 
-**Happy Learning!** 🎉
+**Happy Learning!**
 
 ---
 
-*Last updated: May 24, 2026*
+*Last updated: May 26, 2026*
